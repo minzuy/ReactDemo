@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './session2/jsx-component/MyComponent';
+import App from './session2/Dynamic-property/App';
 import reportWebVitals from './reportWebVitals';
-import MyComponent from './session2/jsx-component/MyComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <MyComponent>
-      <MyComponent.First/>
-      <MyComponent.Second/>
-   </MyComponent>
+    <App/>
   </React.StrictMode>
 );
 
