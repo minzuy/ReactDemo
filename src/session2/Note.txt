@@ -1,0 +1,8 @@
+Fragment :" <> </> " => Ko cần p sử dụng thẻ cha 
+        ví dụ : WithOut Fragment 
+                        <div> <h1></h1> <p></p> </div> 
+                Fragment 
+                        <> <h1></h1> <p></p> </>
+
+Mapping Collection <=> Array , Collection Java                        
+
